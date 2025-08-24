@@ -20,12 +20,10 @@ const flightRoutes = require("./routes/flight");
 const authRoutes = require("./routes/auth");
 
 const dbUrl = process.env.dbURL || "mongodb://localhost:27017/avian";
-mongoose.connect(dbUrl, {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useUnifiedTopology: true,
-    useFindAndModify: false
-});
+mongoose.connect(dbUrl)
+  .then(() => console.log("MongoDB Connected"))
+  .catch(err => console.error(err));
+
 
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "Connection Error:"));
