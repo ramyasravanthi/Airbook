@@ -144,4 +144,5 @@ Server will run at: `http://localhost:3000`
 ---
 ## Demo Video
 
-https://github.com/ramyasravanthi/Airbook/blob/main/Recording%202025-08-24%20231826.mp4
+[https://github.com/ramyasravanthi/Airbook/blob/main/Recording%202025-08-24%20231826.mp4
+](https://github.com/ramyasravanthi/Airbook/blob/3ead2735c0110ed06f98256629d44b31ca094191/Recording%202025-08-24%20231826.mp4)
