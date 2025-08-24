@@ -141,4 +141,7 @@ Server will run at: `http://localhost:3000`
 * Email confirmations for bookings
 * Mobile-responsive UI
 
+---
+## Demo Video
 
+https://github.com/ramyasravanthi/Airbook/blob/main/Recording%202025-08-24%20231826.mp4
