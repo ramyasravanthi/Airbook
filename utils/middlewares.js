@@ -42,10 +42,17 @@ module.exports.validateSearchData = (req, res, next) => {
     next();
 }
 
-module.exports.validateBookingId = (req, res, next) => {
-    BookingDetail.exists({ _id: req.params.id }, function(err, result) {
-        if (!err) { if (result) return next(); }
+module.exports.validateBookingId = async (req, res, next) => {
+    try {
+        const result = await BookingDetail.exists({ _id: req.params.id });
+        if (result) {
+            return next();
+        }
         req.flash("error", "Invalid Boarding Pass");
         res.redirect("/bookings");
-    });
-}
+    } catch (err) {
+        console.error(err);
+        req.flash("error", "Something went wrong");
+        res.redirect("/bookings");
+    }
+};
