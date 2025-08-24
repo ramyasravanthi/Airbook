@@ -143,5 +143,8 @@ Server will run at: `http://localhost:3000`
 
 ---
 ## Demo Video
-https://github.com/user-attachments/assets/6516f949-48d6-40b1-93d9-7244f0f535b0
+
+https://github.com/user-attachments/assets/298ba71e-09fb-4d0e-b3d4-7e71c1586a7f
+
+
 
