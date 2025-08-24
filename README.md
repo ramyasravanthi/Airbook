@@ -44,7 +44,7 @@ It allows users to search for flights, book tickets, manage bookings, view board
 
 ## 📂 Project Structure
 
-
+```
 Airbook/
 │── app.js                  # Main entry point of the app
 │── package.json            # Dependencies and scripts
@@ -54,7 +54,7 @@ Airbook/
 │── utils/                  # Helpers, middlewares, airport list
 │── views/                  # EJS templates (UI)
 │── public/                 # Static assets (CSS, JS, images)
-
+```
 ````
 
 ---
