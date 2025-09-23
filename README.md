@@ -1,4 +1,4 @@
-# ✈️ Airbook – Airline Reservation System
+# ✈️ Fly schedular – Airline Reservation System
 
 Airbook is a **Node.js & Express-based web application** that provides an airline reservation system.  
 It allows users to search for flights, book tickets, manage bookings, view boarding passes, and contact support.
